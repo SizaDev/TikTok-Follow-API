@@ -15,16 +15,6 @@ This script demonstrates how to send an automated **follow request** to a TikTok
 
 ---
 
-## 🛠️ Requirements
-
-- Python 3.7+
-- `requests` module
-- A valid TikTok session cookie
-- `Siza.py` module (not included here)
-
-
----
-
 ## 📌 How It Works
 
 1. Collect valid session cookie and TikTok user identifiers
