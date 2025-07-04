@@ -1,6 +1,6 @@
 import requests, json, base64, hmac, hashlib
 from Siza import god, argus, ladon, gorgon, khronos  # Helper functions from custom TikTok signature module
-
+from urllib.parse import urlencode
 # TikTok follow API endpoint
 url = "https://api31-normal-useast1a.tiktokv.com/aweme/v1/commit/follow/user/"
 
@@ -107,5 +107,5 @@ headers = {
     'x-gorgon': gorgon(params, cookie),
     **cookie
 }
-response = requests.get(url, headers=headers)
+response = requests.get(url,params=urlencode(params),headers=headers)
 print(response.text)
