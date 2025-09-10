@@ -5,7 +5,7 @@ This script demonstrates how to send an automated **follow request** to a TikTok
 > ⚠️ **Disclaimer:** This project is for **educational and research purposes only**. Use of private APIs may violate TikTok’s Terms of Service.
 
 ---
-
+ 
 ## 🚀 Features
 
 - Mimics TikTok Android requests using real device fingerprints
